@@ -1,3 +1,5 @@
+/*//// SCROLL DOWN BUTTON ///
+*/
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 * {
   margin: 0;
@@ -76,6 +78,9 @@ section::after {
 /*/// EVERYRTHING ABOVE FOR SCROLL DOWN BUTTON ////
 */
 
+
+/*   /// EVERYTHING BELOW FOR HOMEPAGE HEADLINE ///
+*/
 body {
   background: #fff;
   text-align: center;
@@ -297,4 +302,113 @@ body {
    transform: translate3D(-1rem,-3rem,0);
     z-index: -1;
   }
+}
+
+
+/*//// EVERYTHING BELOW FOR SECOND PAGE HEADLINE ////
+*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+/* .type-pause-button {
+  position: absolute;
+  top: 150px;
+}
+.icon-pause-circle-fill:before {
+    content: "\e600";
+  font-size: 4em;
+  color: #666;
+}
+.icon-play-circle-fill:before {
+    content: "\e601";
+   font-size: 4em;
+  color: #666;
+} */
+a {
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+    padding: 30px 0px 40px;
+}
+.title h5 {
+  color: #999
+}
+.white .title h5 {
+  color: #fff
+}
+.dynamic-title {
+  float: none;
+  margin: 0 auto;
+  display: table;
+  width: auto;
+  font-family: 'Roboto Slab', serif;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* div#text-btn button {
+  position: absolute;
+  display: inline-block;
+  top: 200px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  overflow: hidden;
+  transition-delay: 0.2s;
+  transition: .3s background;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Roboto Black','Helvetica',sans-serif;
+  font-weight: 300;
+}
+div#text-btn button:hover {
+  background: rgba(0,0,0,0.5);
+}
+.pause-btn.transparent {
+    background: transparent;
+} */
+span.gold-title {
+    font-size: 38px !important;
+    margin: -10px 0;
+    color: #FFC11F;
+}
+
+
+
+
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+  font-style: normal;
+}
+.cd-words-wrapper i {
+  font-style: normal;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
 }
