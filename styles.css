@@ -378,10 +378,6 @@ span.gold-title {
     color: #FFC11F;
 }
 
-
-
-
-
 /* --------------------------------
 
 Primary style
@@ -412,3 +408,32 @@ Primary style
 .no-js .cd-words-wrapper b.is-visible {
   opacity: 1;
 }
+
+xclip
+
+-------------------------------- */
+.cd-headline.clip span {
+   display: inline-block;
+  padding: .2em 0;
+}
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+.cd-headline.clip .cd-words-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #aebcb9;
+}
+.cd-headline.clip b {
+  opacity: 0;
+}
+.cd-headline.clip b.is-visible {
+  opacity: 1;
+}
+
+/* --------------------------------

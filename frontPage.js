@@ -6,14 +6,14 @@
   (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(newscript);
 })();
 
-$(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({
-      scrollTop: $($(this).attr('href')).offset().top
-    }, 500, 'linear');
-  });
-});
+// $(function() {
+//   $('a[href*=#]').on('click', function(e) {
+//     e.preventDefault();
+//     $('html, body').animate({
+//       scrollTop: $($(this).attr('href')).offset().top
+//     }, 500, 'linear');
+//   });
+// });
 
 // JS written by Themetide
 // Everything below for SecondPage headline
